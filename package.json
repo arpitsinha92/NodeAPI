@@ -1,0 +1,22 @@
+{
+  "name": "bgp_express_api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "firebase-admin": "^7.3.0",
+    "jsonwebtoken": "^8.5.1",
+    "mocha": "^6.0.2",
+    "mongoose": "^5.4.20",
+    "multer": "^1.4.1",
+    "nodemon": "^1.18.10"
+  }
+}
